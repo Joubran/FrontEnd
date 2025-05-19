@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+
+:root {
+  --font-list: Open Sans, sans-serif;
+  --font: Montserrat, sans-serif;
+}
+
+.content-aside-left, .content-aside-right {
+  background-color: #A59D84;
+  width: 20%;
+}
+
+.content-main {
+  display: flex;
+  background-color: #A59D84;
+  width: 55%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.content-aside-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--font-list);
+}
+
+.greeting-box-text, .content-aside-right {
+  text-align: center;
+}
+
+.content-main-img {
+  height: 39%;
+  width: 39%;
+  object-fit: contain;
+  margin-top: 1%;
+}

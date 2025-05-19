@@ -1,0 +1,65 @@
+:root {
+  --font-primary: 'Roboto Mono', monospace;
+  --font-secondary: 'Playfair Display', serif;
+  --bg-light: #f4f4f4;
+  --bg-dark: #360e35;
+  --text-light: #fff;
+  --text-dark: #161731;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1,
+h2 {
+  font-family: var(--font-secondary);
+}
+
+.content {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.image-container {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-font {
+  background-color: #398793;
+}
+
+.btn-theme {
+  background-color: #4b44b3;
+}
